@@ -30,7 +30,7 @@ export type StorySettings = {
 @Service()
 class DialogueService {
   readonly activeDialogue = signal<DialogueElement|null>(null)
-  story?: ArcweaveStory<typeof arcweaveProject>
+  story?: ArcweaveStory<ArcweaveProject>
   readonly ready = new ReplaySubject<boolean>(1)
   private projectHash?: string
   private projectData?: ArcweaveProject
@@ -41,7 +41,7 @@ class DialogueService {
     // Instead of using the api, it can just use the import json export as part of the project.
     // this.projectData = arcweaveProject
     this.projectData = await getProjectData(this.projectHash)
-    this.story = new ArcweaveStory(this.projectData)
+    this.story = new ArcweaveStory(this.projectData!)
     
     this.ready.next(true)
   }
@@ -239,7 +239,7 @@ function getAssetUrl(projectHash: string, assetType: string, file: string) {
   return `https://storage.googleapis.com/media.arcweave.com/ProdServer/projects/${projectHash}/${assetType}/${file}`
 }
 
-export async function getProjectData(projectHash: string = getProjectHash()): Promise<typeof arcweaveProject> {
+export async function getProjectData(projectHash: string = getProjectHash()): Promise<ArcweaveProject> {
   const options = {
     method: 'GET',
     headers: {
@@ -259,6 +259,6 @@ export async function getProjectData(projectHash: string = getProjectHash()): Pr
     })
     return response
   } else {
-    return arcweaveProject
+    return arcweaveProject as ArcweaveProject
   }
 }
