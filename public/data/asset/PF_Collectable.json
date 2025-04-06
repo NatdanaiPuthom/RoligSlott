@@ -1,0 +1,51 @@
+{
+  "name": "PF_Collectable",
+  "type": "prefab",
+  "prefab": {
+    "objects": [
+      {
+        "id": "0a8bf481-d77c-4cf6-8b09-3679cd0e6b94",
+        "name": "Crystal ball",
+        "assetId": "9e3c49f8-d1f2-4edb-ba81-3e6fb6aa675a",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "type": "asset_mesh",
+        "materialAssignments": [
+          {
+            "color": "#717171",
+            "materialId": "9e209e23-9166-4270-8557-27e2430d335c",
+            "name": "Rocks"
+          },
+          {
+            "color": "#aaaaaa",
+            "materialId": "9e209e23-9166-4270-8557-27e2430d335c",
+            "name": "Crystal_ball_Mat"
+          }
+        ],
+        "collisionDetection": true,
+        "physics": {
+          "type": 2,
+          "friction": 0.5,
+          "density": 1,
+          "restitution": 0.5,
+          "mass": 1
+        }
+      }
+    ]
+  },
+  "id": "9e9caed5-baf8-455d-ab84-0b350c2ea438"
+}
