@@ -1,0 +1,20 @@
+{
+  "name": "Stall",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e102cf6-29c8-4dea-b5ca-06504087a233",
+  "fileKey": "Stall.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Stall.fbx",
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e16af64-20c6-4cec-96b6-3b0e45254a9e",
+      "name": "standardSurface1"
+    }
+  ]
+}

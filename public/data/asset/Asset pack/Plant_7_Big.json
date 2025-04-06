@@ -1,0 +1,12 @@
+{
+  "name": "Plant_7_Big",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624fd-17da-4264-9d26-1f11b4102d7d",
+  "fileKey": "Plant_7_Big.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Plant_7_Big.fbx"
+}

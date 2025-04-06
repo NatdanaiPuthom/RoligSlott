@@ -1,0 +1,12 @@
+{
+  "name": "Log_pile_Quint",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1601-b760-43f1-be3b-ab6423dae1a5",
+  "fileKey": "Log_pile_Quint.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Log_pile_Quint.fbx"
+}

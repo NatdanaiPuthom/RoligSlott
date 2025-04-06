@@ -1,0 +1,50 @@
+{
+  "name": "Windmill",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e208fe5-eeb4-4139-aa8e-8876286952b9",
+  "fileKey": "Windmill.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Windmill.fbx",
+  "materialAssignments": [
+    {
+      "color": "#4d5775",
+      "materialId": null,
+      "name": "Roof_mat"
+    },
+    {
+      "color": "#6c6c6c",
+      "materialId": "9e105056-3c78-4d15-8448-a928ff8cf7af",
+      "name": "Stone"
+    },
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": null,
+      "name": "Roof_metal_mat"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e209dfe-e8f2-49e4-9520-288ef1f992da",
+      "name": "Fabric_mat"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": null,
+      "name": "lambert6"
+    },
+    {
+      "color": "#89aaa7",
+      "materialId": "9e24c68c-775e-4f47-b59b-728dd3823285",
+      "name": "Glass"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Leek bin",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e243947-6c64-447f-9d96-243765bf86a8",
+  "fileKey": "Leek bin.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Leek bin.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e209dfe-e8f2-49e4-9520-288ef1f992da",
+      "name": "Leek_white"
+    },
+    {
+      "color": "#79aa58",
+      "materialId": "9e243de1-ef06-4a93-a18a-381b72b0efaa",
+      "name": "Apple_stem"
+    },
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    }
+  ],
+  "receiveShadow": true,
+  "castShadow": true
+}

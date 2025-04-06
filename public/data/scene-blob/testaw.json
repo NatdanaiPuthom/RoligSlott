@@ -1,0 +1,513 @@
+{
+  "id": "9e27ecc8-6e52-445c-b12b-0150db1e85a8",
+  "name": "testaw",
+  "sceneId": "9e27ecc8-6e52-445c-b12b-0150db1e85a8",
+  "data": [
+    {
+      "id": "auto-global-fog",
+      "name": "Global fog",
+      "type": "global_fog",
+      "fog": {
+        "type": "density",
+        "color": "#b8f8ff",
+        "density": 0.005,
+        "near": 100,
+        "far": 1000
+      }
+    },
+    {
+      "id": "auto-sky",
+      "name": "Sky",
+      "type": "sky",
+      "sky": {
+        "materialId": null
+      }
+    },
+    {
+      "id": "364c74f1-8d01-4f9d-867c-0dc90d0e4d7f",
+      "name": "Landscape",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "landscape",
+      "landscape": {
+        "options": {
+          "sectionSize": 100,
+          "sections": {
+            "x": 4,
+            "y": 4
+          },
+          "density": 40
+        },
+        "heightMaps": []
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "grass": {
+        "layers": []
+      }
+    },
+    {
+      "id": "cd68cc5c-8825-4ee9-8a57-b5b6157068b1",
+      "name": "Npc ashenbane",
+      "position": [
+        17.717461671330952,
+        4.440892098500626e-16,
+        -6.055067857238317
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "Npc",
+        "innerParams": [
+          {
+            "path": [
+              "dialogueStart"
+            ],
+            "params": {
+              "objId": {
+                "type": 12,
+                "value": "ashenbane"
+              }
+            }
+          },
+          {
+            "path": [
+              "dialogueStart",
+              "triggerVolume"
+            ],
+            "params": {}
+          },
+          {
+            "path": [
+              "dialogueStart",
+              "triggerVolume",
+              "editorMesh"
+            ],
+            "params": {
+              "color": {
+                "type": 10,
+                "value": "#ffffff"
+              }
+            }
+          },
+          {
+            "path": [
+              "animation"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {
+          "model": {
+            "type": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "8f8cb6d1-761c-4eb8-9bfa-5b74774dc9ea",
+      "name": "SpawnPoint",
+      "position": [
+        30.660532690225494,
+        0.3,
+        -16.775667376929565
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "SpawnPoint",
+        "innerParams": [
+          {
+            "path": [
+              "mesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
+      }
+    },
+    {
+      "id": "a97e85b1-b7b1-43ee-942e-64e1e9d8e9e4",
+      "name": "Npc sardonia",
+      "position": [
+        17.61563935493578,
+        1.7763568394002505e-15,
+        -16.559024049825496
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "Npc",
+        "innerParams": [
+          {
+            "path": [
+              "dialogueStart"
+            ],
+            "params": {
+              "objId": {
+                "type": 12,
+                "value": "sardonia"
+              }
+            }
+          },
+          {
+            "path": [
+              "dialogueStart",
+              "triggerVolume"
+            ],
+            "params": {}
+          },
+          {
+            "path": [
+              "dialogueStart",
+              "triggerVolume",
+              "editorMesh"
+            ],
+            "params": {
+              "color": {
+                "type": 10,
+                "value": "#ffffff"
+              }
+            }
+          },
+          {
+            "path": [
+              "animation"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {
+          "model": {
+            "type": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "8bffdb05-c39a-4af9-a284-642a27c13d09",
+      "name": "Npc ribbit",
+      "position": [
+        18.528879709721387,
+        0,
+        -27.562104191502655
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "Npc",
+        "innerParams": [
+          {
+            "path": [
+              "dialogueStart"
+            ],
+            "params": {
+              "objId": {
+                "type": 12,
+                "value": "ribbit"
+              }
+            }
+          },
+          {
+            "path": [
+              "dialogueStart",
+              "triggerVolume"
+            ],
+            "params": {}
+          },
+          {
+            "path": [
+              "dialogueStart",
+              "triggerVolume",
+              "editorMesh"
+            ],
+            "params": {
+              "color": {
+                "type": 10,
+                "value": "#ffffff"
+              }
+            }
+          },
+          {
+            "path": [
+              "animation"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {
+          "model": {
+            "type": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "fc1ac88e-fe1d-4d6d-ba59-997827aa61e4",
+      "name": "Rock_Big_1",
+      "assetId": "9e1624fd-3c10-4833-ae96-2ba55a6dc6e9",
+      "position": [
+        26.652382428000145,
+        7.105427357601002e-15,
+        7.595021865186794
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "59b8035a-0c63-4d3d-ab90-a9f319a86589",
+      "name": "Rock_Medium_3",
+      "assetId": "9e1624fd-cf90-4fe2-a24b-ec9bf151b411",
+      "position": [
+        19.24859558739803,
+        0,
+        7.884112387876954
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1e9271f4-74a2-4bd9-a001-bf3fa742244c",
+      "name": "Rock_Big_2",
+      "assetId": "9e1624fd-5b14-4c19-b128-76bddc8ad4d3",
+      "position": [
+        12.74235203048979,
+        0,
+        2.2731841657664376
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9e243e44-443a-47f3-a2cf-aa4d805fd34c",
+          "name": "Rocks"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "746ac4bd-f9fd-4846-bcb9-f67b673934c3",
+      "name": "Rock_Medium_2",
+      "assetId": "9e1624fd-ac5e-4f80-980e-9f7ce05cc3b3",
+      "position": [
+        9.66724741593331,
+        -7.105427357601002e-15,
+        -8.162433867439603
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "6044d99d-6f23-4e87-91d4-f0f20a06e895",
+      "name": "RockPath_Round_Wide",
+      "assetId": "9e1624fe-c274-4311-a599-76bcba8fad56",
+      "position": [
+        27.54757712294237,
+        4.440892098500626e-16,
+        -6.43699926312688
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "cffc40a4-936e-4eb0-ada6-4b62b6e8c697",
+      "name": "Rock_Big_1",
+      "assetId": "9e1624fd-3c10-4833-ae96-2ba55a6dc6e9",
+      "position": [
+        26.53594822161758,
+        0,
+        -3.6198188343793154
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Pebble_Round_2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e1624fa-e0c8-4612-9a22-e4b72ec72bab",
+  "fileKey": "Pebble_Round_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Pebble_Round_2.fbx",
+  "materialAssignments": [
+    {
+      "color": "#e7e7e7",
+      "materialId": "9e105056-3c78-4d15-8448-a928ff8cf7af",
+      "name": "PathRocks"
+    }
+  ]
+}

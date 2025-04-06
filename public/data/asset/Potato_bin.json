@@ -1,0 +1,27 @@
+{
+  "name": "Potato bin",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e243933-6412-4a70-8bd8-379b3db11ca5",
+  "fileKey": "Potato bin.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Potato bin.fbx",
+  "materialAssignments": [
+    {
+      "color": "#755340",
+      "materialId": "9e209f21-e270-4c79-8910-0856388e5c5d",
+      "name": "Potato"
+    },
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    }
+  ],
+  "castShadow": true,
+  "receiveShadow": true
+}

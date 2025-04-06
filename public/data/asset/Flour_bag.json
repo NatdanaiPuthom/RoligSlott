@@ -1,0 +1,21 @@
+{
+  "name": "Flour bag",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.27,
+    "collisions": {}
+  },
+  "id": "9e3b4b0a-a6c0-492e-a9a6-dfc3b64985e4",
+  "fileKey": "Flour bag.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Flour bag.fbx",
+  "castShadow": true,
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e3b4d46-7248-4b01-8c8e-8acb5949cc91",
+      "name": "standardSurface1"
+    }
+  ]
+}

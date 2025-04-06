@@ -1,0 +1,12 @@
+{
+  "name": "Plant_6",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624fc-c460-413e-b00a-29110ab29d89",
+  "fileKey": "Plant_6.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Plant_6.fbx"
+}

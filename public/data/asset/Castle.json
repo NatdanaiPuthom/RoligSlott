@@ -1,0 +1,37 @@
+{
+  "name": "Castle",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 1,
+    "collisions": {}
+  },
+  "id": "9e10296d-deb8-47d7-b9df-076826b5fc1f",
+  "fileKey": "Castle.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Castle.fbx",
+  "castShadow": true,
+  "receiveShadow": true,
+  "materialAssignments": [
+    {
+      "color": "#aaaaaa",
+      "materialId": null,
+      "name": "Castle1"
+    },
+    {
+      "color": "#65553d",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    },
+    {
+      "color": "#727272",
+      "materialId": null,
+      "name": "lambert5"
+    },
+    {
+      "color": "#727272",
+      "materialId": null,
+      "name": "Metal"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Log",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1600-d0c0-47f3-b6fb-89475899448e",
+  "fileKey": "Log.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Log.fbx"
+}

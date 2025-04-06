@@ -1,0 +1,12 @@
+{
+  "name": "Nails",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c2efd-c4ac-4c9c-b928-7815e02c05d0",
+  "fileKey": "Nails.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Nails.fbx"
+}

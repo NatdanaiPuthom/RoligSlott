@@ -1,0 +1,12 @@
+{
+  "name": "Butler_Anim",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9e53bb01-c716-4671-a7bd-b90b32e1a000",
+  "fileKey": "Butler_animated.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\adamr\\Documents\\AW Game jam assets\\Butler_animated.glb",
+  "mesh": {
+    "collisions": {}
+  }
+}

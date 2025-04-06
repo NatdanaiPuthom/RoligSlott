@@ -1,0 +1,12 @@
+{
+  "name": "Log_pile_tripple",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1602-30a0-4d1a-8630-22914ba5c77e",
+  "fileKey": "Log_pile_tripple.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Log_pile_tripple.fbx"
+}

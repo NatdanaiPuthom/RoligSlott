@@ -1,0 +1,29 @@
+{
+  "name": "Water",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#3f5b78"
+      },
+      "shallowColor": {
+        "type": 10,
+        "value": "#58e4cd"
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "9e205cbe-cbe6-449b-9ce0-a749ef7efc15"
+      }
+    },
+    "shader": "WaterShader",
+    "transparent": true
+  },
+  "id": "9e205c1a-75fa-4ddd-8175-488b24ff750c"
+}

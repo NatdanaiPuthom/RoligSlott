@@ -1,0 +1,20 @@
+{
+  "name": "Workshop table",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e3c2542-33da-4dda-a910-71229064c4de",
+  "fileKey": "Workshop table.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Workshop table.fbx",
+  "materialAssignments": [
+    {
+      "color": "#e7e7e7",
+      "materialId": "9e3b8c07-1064-4699-8e49-d8456d9ebebb",
+      "name": "Wood"
+    }
+  ]
+}

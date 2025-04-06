@@ -1,0 +1,25 @@
+{
+  "name": "Flower plane 2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 1,
+    "collisions": {}
+  },
+  "id": "9e2cc52d-2392-45c0-8d9b-7deb2ac70a6a",
+  "fileKey": "Flower plane 1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Flower plane 1.fbx",
+  "materialAssignments": [
+    {
+      "color": "#669346",
+      "materialId": "9e208ff6-b50a-447e-8380-9f8b51b95e30",
+      "name": "lambert3"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e208ff6-b50a-447e-8380-9f8b51b95e30",
+      "name": "lambert4"
+    }
+  ]
+}

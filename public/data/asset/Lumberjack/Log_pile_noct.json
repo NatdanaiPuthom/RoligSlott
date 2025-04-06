@@ -1,0 +1,12 @@
+{
+  "name": "Log_pile_noct",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1601-3006-40bd-918d-f27df905068e",
+  "fileKey": "Log_pile_noct.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Log_pile_noct.fbx"
+}

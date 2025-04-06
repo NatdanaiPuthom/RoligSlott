@@ -1,0 +1,30 @@
+{
+  "name": "Carrot bin",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e24393f-b708-4165-8b23-b9c230cc5519",
+  "fileKey": "Carrot bin.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Carrot bin.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    },
+    {
+      "color": "#aa5637",
+      "materialId": "9e209e8b-64e4-4792-91db-cd0217402086",
+      "name": "Pumpkin"
+    },
+    {
+      "color": "#79aa58",
+      "materialId": "9e243de1-ef06-4a93-a18a-381b72b0efaa",
+      "name": "Apple_stem"
+    }
+  ]
+}

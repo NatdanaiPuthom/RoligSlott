@@ -1,0 +1,12 @@
+{
+  "name": "Axe",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1605-2f9e-45c9-b2a2-efac8be7fb9b",
+  "fileKey": "Axe.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Axe.fbx"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Half log",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c41ce-7cfc-427f-ac35-a5545ce0c18a",
+  "fileKey": "Half log.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Half log.fbx"
+}

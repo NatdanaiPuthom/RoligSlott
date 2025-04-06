@@ -1,0 +1,12 @@
+{
+  "name": "Saw",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1603-c438-452f-8cef-47c04545a5a2",
+  "fileKey": "Saw.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Saw.fbx"
+}

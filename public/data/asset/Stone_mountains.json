@@ -1,0 +1,46 @@
+{
+  "name": "Stone mountains",
+  "type": "prefab",
+  "prefab": {
+    "objects": [
+      {
+        "id": "d00f4afa-8774-47c6-9be7-31256d8e3b6b",
+        "name": "Rock_Medium_3",
+        "assetId": "9e1624fd-cf90-4fe2-a24b-ec9bf151b411",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.3024896554735607,
+          0.30248965547356055,
+          0.3024896554735607
+        ],
+        "rotation": [
+          -4.1413085253585603e-16,
+          -1.5227087092819922,
+          -6.556927571849931e-16,
+          "XYZ"
+        ],
+        "type": "asset_mesh",
+        "materialAssignments": [
+          {
+            "color": "#e7e7e7",
+            "materialId": "9e168674-2670-4a65-a54d-355471c10cb5",
+            "name": "Rocks"
+          }
+        ],
+        "collisionDetection": true,
+        "physics": {
+          "type": 2,
+          "friction": 0.5,
+          "density": 1,
+          "restitution": 0.5,
+          "mass": 1
+        }
+      }
+    ]
+  },
+  "id": "9e169769-10b2-4aea-8cf9-22f540e43bcb"
+}

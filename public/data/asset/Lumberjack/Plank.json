@@ -1,0 +1,12 @@
+{
+  "name": "Plank",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1602-e04a-4dcf-91dc-66104886b4a8",
+  "fileKey": "Plank.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Plank.fbx"
+}

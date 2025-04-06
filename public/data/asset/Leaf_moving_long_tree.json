@@ -1,0 +1,47 @@
+{
+  "name": "Leaf moving long tree",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#2a7a5b"
+      },
+      "colorTop": {
+        "type": 10,
+        "value": "#569a32"
+      },
+      "hasGradient": {
+        "type": 4,
+        "value": true
+      },
+      "gradientStart": {
+        "type": 1,
+        "value": 136.8
+      },
+      "gradientEnd": {
+        "type": 1,
+        "value": 611.25
+      },
+      "alphaMap": {
+        "type": 2,
+        "value": "9e0c75cc-24da-49a9-92e2-fbb6179f6478"
+      },
+      "windStrength": {
+        "type": 1,
+        "value": "15"
+      }
+    },
+    "shader": "LeavesShader",
+    "alphaTest": 0.5,
+    "transparent": false,
+    "bloom": false
+  },
+  "id": "9e2c8ecc-0246-462e-b8fe-6442560adf83"
+}

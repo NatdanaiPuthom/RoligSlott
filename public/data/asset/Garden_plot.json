@@ -1,0 +1,12 @@
+{
+  "name": "Garden plot",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3b535d-3ee6-47fc-9611-58e6f98747a8",
+  "fileKey": "Garden plot.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Garden plot.fbx"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Workshop_objects",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c3621-b0f4-4252-97a4-9aa7e8a1be9e",
+  "fileKey": "Workshop_objects.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Workshop_objects.fbx"
+}

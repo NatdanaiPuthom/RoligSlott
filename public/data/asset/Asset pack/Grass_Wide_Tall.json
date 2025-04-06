@@ -1,0 +1,12 @@
+{
+  "name": "Grass_Wide_Tall",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624fa-9cc6-42d2-a321-41da9f78f7db",
+  "fileKey": "Grass_Wide_Tall.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Grass_Wide_Tall.fbx"
+}

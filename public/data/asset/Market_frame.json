@@ -1,0 +1,37 @@
+{
+  "name": "Market frame",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e243903-b3b6-4133-a550-5d666fa3f29c",
+  "fileKey": "Market frame.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Market frame.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aa5656",
+      "materialId": "9e209e23-9166-4270-8557-27e2430d335c",
+      "name": "Red"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e209dfe-e8f2-49e4-9520-288ef1f992da",
+      "name": "White"
+    },
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    },
+    {
+      "color": "#aa8e7f",
+      "materialId": "9e209e58-c340-4ad8-8b90-0e0e45613756",
+      "name": "Rope"
+    }
+  ],
+  "castShadow": true,
+  "receiveShadow": true
+}

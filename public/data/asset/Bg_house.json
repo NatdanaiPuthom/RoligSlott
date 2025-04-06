@@ -1,0 +1,50 @@
+{
+  "name": "Bg house",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e2c3d81-b84a-4f7a-a501-bfed9669bae7",
+  "fileKey": "Bg house.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Bg house.fbx",
+  "materialAssignments": [
+    {
+      "color": "#4a5944",
+      "materialId": null,
+      "name": "Wood"
+    },
+    {
+      "color": "#7ca8aa",
+      "materialId": null,
+      "name": "glass"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e209dfe-e8f2-49e4-9520-288ef1f992da",
+      "name": "Wall"
+    },
+    {
+      "color": "#ffffff",
+      "materialId": null,
+      "name": "standardSurface1"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": null,
+      "name": "Metal"
+    },
+    {
+      "color": "#75483b",
+      "materialId": null,
+      "name": "Roof"
+    },
+    {
+      "color": "#5d5d5d",
+      "materialId": null,
+      "name": "Stone"
+    }
+  ]
+}

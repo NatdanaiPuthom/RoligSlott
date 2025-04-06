@@ -1,0 +1,12 @@
+{
+  "name": "RockPath_Round_Wide",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624fe-c274-4311-a599-76bcba8fad56",
+  "fileKey": "RockPath_Round_Wide.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\RockPath_Round_Wide.fbx"
+}

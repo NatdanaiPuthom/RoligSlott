@@ -1,0 +1,12 @@
+{
+  "name": "RockPath_Round_Thin",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624fe-9d12-45c8-99c3-cdddf75fcd9e",
+  "fileKey": "RockPath_Round_Thin.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\RockPath_Round_Thin.fbx"
+}

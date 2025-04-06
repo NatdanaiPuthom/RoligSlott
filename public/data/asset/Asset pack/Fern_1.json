@@ -1,0 +1,12 @@
+{
+  "name": "Fern_1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624f8-cfb8-481c-8bb9-f2f3b533d029",
+  "fileKey": "Fern_1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Fern_1.fbx"
+}

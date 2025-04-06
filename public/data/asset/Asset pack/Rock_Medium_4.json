@@ -1,0 +1,15 @@
+{
+  "name": "Rock_Medium_4",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e1624fd-ec96-4af5-b345-411ed43fcf05",
+  "fileKey": "Rock_Medium_4.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Rock_Medium_4.fbx",
+  "receiveShadow": true,
+  "castShadow": true
+}

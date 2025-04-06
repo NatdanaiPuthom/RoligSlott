@@ -1,0 +1,32 @@
+{
+  "name": "Apple bin",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e243944-3724-40bf-be2e-b14e9f3485fb",
+  "fileKey": "Apple bin.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Apple bin.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aa4d4d",
+      "materialId": "9e209e23-9166-4270-8557-27e2430d335c",
+      "name": "Apple"
+    },
+    {
+      "color": "#79aa58",
+      "materialId": "9e243de1-ef06-4a93-a18a-381b72b0efaa",
+      "name": "Apple_stem"
+    },
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    }
+  ],
+  "receiveShadow": true,
+  "castShadow": true
+}

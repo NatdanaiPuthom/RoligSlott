@@ -1,0 +1,12 @@
+{
+  "name": "Crystal ball",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c49f8-d1f2-4edb-ba81-3e6fb6aa675a",
+  "fileKey": "Crystal ball.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Crystal ball.fbx"
+}

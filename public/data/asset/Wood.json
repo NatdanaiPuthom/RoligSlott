@@ -1,0 +1,54 @@
+{
+  "name": "Wood",
+  "type": "material",
+  "material": {
+    "type": "landscape-composite",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "layers": {
+        "type": 21,
+        "element": 16,
+        "value": [
+          "9e16ad05-869e-4dbe-a42c-df5453d668ee",
+          "9e16af64-20c6-4cec-96b6-3b0e45254a9e"
+        ]
+      },
+      "uvScale": {
+        "type": 1,
+        "value": 5.9
+      },
+      "transition": {
+        "type": 1,
+        "value": 1
+      },
+      "noiseScale": {
+        "type": 1,
+        "value": 1
+      },
+      "noiseAmount": {
+        "type": 1,
+        "value": 0.2
+      },
+      "softness": {
+        "type": 1,
+        "value": 0.3
+      },
+      "enableSlope": {
+        "type": 4,
+        "value": false
+      },
+      "slopeMaterial": {
+        "type": 16
+      },
+      "slopeAngle": {
+        "type": 1,
+        "value": 35
+      }
+    }
+  },
+  "id": "9e105090-062e-4ba6-ba26-0e0718372a78"
+}

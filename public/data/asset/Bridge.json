@@ -1,0 +1,15 @@
+{
+  "name": "Bridge",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {
+      "shapeType": "mesh"
+    }
+  },
+  "id": "9e3a7397-338e-4559-aa52-e40c80ff274c",
+  "fileKey": "Bridge.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Bridge.fbx"
+}

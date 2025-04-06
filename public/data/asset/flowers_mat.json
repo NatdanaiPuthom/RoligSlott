@@ -1,0 +1,29 @@
+{
+  "name": "flowers mat",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ed4545"
+      },
+      "colorBottom": {
+        "type": 10,
+        "value": "#3d0000"
+      },
+      "alphaMap": {
+        "type": 2,
+        "value": "9e2ccc0b-8e88-4ac4-9b95-bbe4407a43be"
+      }
+    },
+    "alphaTest": 1,
+    "shader": "GrassShader"
+  },
+  "id": "9e208ff6-b50a-447e-8380-9f8b51b95e30"
+}

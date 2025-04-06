@@ -1,0 +1,12 @@
+{
+  "name": "Church",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3ab1b8-eefa-4169-a4d6-2997020fafc2",
+  "fileKey": "Church.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Church.fbx"
+}

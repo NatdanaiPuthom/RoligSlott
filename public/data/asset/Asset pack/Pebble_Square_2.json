@@ -1,0 +1,12 @@
+{
+  "name": "Pebble_Square_2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624fb-43d8-4ccd-a2c4-a1b5d583a650",
+  "fileKey": "Pebble_Square_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Pebble_Square_2.fbx"
+}

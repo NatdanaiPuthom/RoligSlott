@@ -1,0 +1,57 @@
+{
+  "name": "Leaf falling Green",
+  "type": "material",
+  "material": {
+    "type": "unlit",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#2a7a5b"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "map": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "specularMap": {
+        "type": 2
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "envMap": {
+        "type": 2
+      },
+      "combine": {
+        "type": 1
+      },
+      "reflectivity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      }
+    },
+    "alphaTest": 0
+  },
+  "id": "9e2c8696-b3e6-49a3-ac93-4f7267556ef0"
+}

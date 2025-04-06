@@ -1,0 +1,12 @@
+{
+  "name": "Tree_Long_1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3bc0ba-254e-4bcc-9024-9541abe347b6",
+  "fileKey": "Tree_Long_1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Trees\\Tree_Long_1.fbx"
+}

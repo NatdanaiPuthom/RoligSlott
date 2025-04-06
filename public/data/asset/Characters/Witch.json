@@ -1,0 +1,12 @@
+{
+  "name": "Witch",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9e53cf5a-927e-4ea8-8f81-201b4195ecb7",
+  "fileKey": "Witch_1.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\adamr\\Documents\\AW Game jam assets\\Witch_1.glb",
+  "mesh": {
+    "collisions": {}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Flower_3_Group",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624f9-988a-44c4-9412-a08f9241f01a",
+  "fileKey": "Flower_3_Group.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Flower_3_Group.fbx"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Detective_Anim",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9e53c6c3-8fc6-491d-9b86-9b03211ad0f3",
+  "fileKey": "Detective_Anim (1).glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\adamr\\Downloads\\Detective_Anim (1).glb",
+  "mesh": {
+    "collisions": {}
+  }
+}

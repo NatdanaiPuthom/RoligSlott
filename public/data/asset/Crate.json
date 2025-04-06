@@ -1,0 +1,12 @@
+{
+  "name": "Crate",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e20868b-4ddc-40bb-9c2a-f5a87e7d7856",
+  "fileKey": "Crate.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Crate.fbx"
+}

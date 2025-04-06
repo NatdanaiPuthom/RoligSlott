@@ -1,0 +1,20 @@
+{
+  "name": "Bench",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.25,
+    "collisions": {}
+  },
+  "id": "9e3acab3-9f22-49d3-a971-5b2c745b15fc",
+  "fileKey": "Bench.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Bench.fbx",
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "standardSurface1"
+    }
+  ]
+}

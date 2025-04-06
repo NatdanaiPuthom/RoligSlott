@@ -1,0 +1,29 @@
+{
+  "name": "Wheat mtl",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#E7C036"
+      },
+      "colorBottom": {
+        "type": 10,
+        "value": "#D3500A"
+      },
+      "alphaMap": {
+        "type": 2,
+        "value": "9e1ea1e1-5f88-491a-a0c7-2b7bedf668d3"
+      }
+    },
+    "shader": "GrassShader",
+    "alphaTest": 0.2
+  },
+  "id": "9e1e7b62-85da-457b-8f18-1e977d5845b7"
+}

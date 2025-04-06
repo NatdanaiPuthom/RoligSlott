@@ -1,0 +1,37 @@
+{
+  "name": "House1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e10438e-b920-410f-983e-31a9a669fe6a",
+  "fileKey": "House.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\House.fbx",
+  "castShadow": true,
+  "receiveShadow": true,
+  "materialAssignments": [
+    {
+      "color": "#e7e7e7",
+      "materialId": "9e3b8c07-1064-4699-8e49-d8456d9ebebb",
+      "name": "Wood"
+    },
+    {
+      "color": "#717171",
+      "materialId": null,
+      "name": "Rocks"
+    },
+    {
+      "color": "#e7e7e7",
+      "materialId": "9e3b7256-ad32-4f50-9864-5302203d399e",
+      "name": "White1"
+    },
+    {
+      "color": "#89aaa7",
+      "materialId": null,
+      "name": "Glass"
+    }
+  ]
+}

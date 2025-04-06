@@ -1,0 +1,21 @@
+{
+  "name": "Cloud 1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e2c6c32-03d4-4a8e-8156-fc94b665b2b0",
+  "fileKey": "Cloud 1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Cloud 1.fbx",
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e2c7c92-c6e6-4e1c-9a87-7df71ff63378",
+      "name": "standardSurface1"
+    }
+  ],
+  "castShadow": true
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Tree 1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e0c7580-83cc-4bac-9789-cf8d80563b45",
+  "fileKey": "Tree 1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Trees\\Tree 1.fbx",
+  "receiveShadow": false,
+  "castShadow": true,
+  "materialAssignments": [
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e138575-8adc-42f1-afb0-a453b2a07bc8",
+      "name": "lambert2"
+    },
+    {
+      "color": "#ffffff",
+      "materialId": "9e105090-062e-4ba6-ba26-0e0718372a78",
+      "name": "standardSurface1"
+    }
+  ]
+}

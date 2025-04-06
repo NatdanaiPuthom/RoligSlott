@@ -1,0 +1,22 @@
+{
+  "name": "Long table",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e24391a-dd34-4f0d-b55d-12bf6be9f2e9",
+  "fileKey": "Long table.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Long table.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    }
+  ],
+  "receiveShadow": true,
+  "castShadow": true
+}

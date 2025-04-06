@@ -1,0 +1,349 @@
+{
+  "name": "Leaves falling",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "hmmbhrvgx",
+        "name": "Emitter",
+        "rate": {
+          "type": "continuous",
+          "count": 1,
+          "time": 1.2,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "ua3etomp3",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": 9.8
+              }
+            }
+          },
+          {
+            "id": "my0mb863o",
+            "type": "positionSphere",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  0,
+                  0
+                ],
+                "type": 8
+              },
+              "radius": {
+                "value": 6.3,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "bmfm8su5m",
+            "type": "randomDirection",
+            "params": {
+              "speed": {
+                "value": 1,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "yxbn3jja0",
+            "type": "randomScale",
+            "params": {
+              "min": {
+                "value": 0.4,
+                "type": 1
+              },
+              "max": {
+                "value": 0.8,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "tk3v0flii",
+            "type": "randomRotation",
+            "params": {}
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "qf7vdt1h3",
+            "type": "gravity",
+            "params": {
+              "gravity": {
+                "value": "0.04",
+                "type": 1
+              },
+              "easing": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "jxuatits7",
+            "type": "linearDamping",
+            "params": {
+              "factor": {
+                "value": "1.5",
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "uesb02g8m",
+            "type": "force",
+            "params": {
+              "force": {
+                "value": [
+                  -0.1,
+                  0,
+                  0.1
+                ],
+                "type": 8
+              },
+              "ease": {
+                "value": "InQuad",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "bq9rri78b",
+            "type": "rotate",
+            "params": {
+              "rotation": {
+                "value": [
+                  24.6,
+                  32,
+                  14.7
+                ],
+                "type": 8
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "t0uyezp0x",
+            "type": "vortex",
+            "params": {
+              "axis": {
+                "value": [
+                  0,
+                  0.1,
+                  0
+                ],
+                "type": 8
+              },
+              "amount": {
+                "value": 0.9,
+                "type": 1
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "shape",
+          "texture": null,
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0,
+          "shape": "plane",
+          "material": "9e2c6385-aa74-47f2-84af-c5cfdc2a81df"
+        }
+      },
+      {
+        "id": "deq1rmgmu",
+        "name": "Emitter (copy)",
+        "rate": {
+          "type": "continuous",
+          "count": 1,
+          "time": 1.2,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "ua3etomp3",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": 9.8
+              }
+            }
+          },
+          {
+            "id": "my0mb863o",
+            "type": "positionSphere",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  0,
+                  0
+                ],
+                "type": 8
+              },
+              "radius": {
+                "value": 6.3,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "bmfm8su5m",
+            "type": "randomDirection",
+            "params": {
+              "speed": {
+                "value": 1,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "yxbn3jja0",
+            "type": "randomScale",
+            "params": {
+              "min": {
+                "value": 0.4,
+                "type": 1
+              },
+              "max": {
+                "value": 0.8,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "tk3v0flii",
+            "type": "randomRotation",
+            "params": {}
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "qf7vdt1h3",
+            "type": "gravity",
+            "params": {
+              "gravity": {
+                "value": "0.04",
+                "type": 1
+              },
+              "easing": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "jxuatits7",
+            "type": "linearDamping",
+            "params": {
+              "factor": {
+                "value": "1.5",
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "uesb02g8m",
+            "type": "force",
+            "params": {
+              "force": {
+                "value": [
+                  -0.1,
+                  0,
+                  0.1
+                ],
+                "type": 8
+              },
+              "ease": {
+                "value": "InQuad",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "bq9rri78b",
+            "type": "rotate",
+            "params": {
+              "rotation": {
+                "value": [
+                  24.6,
+                  32,
+                  14.7
+                ],
+                "type": 8
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "t0uyezp0x",
+            "type": "vortex",
+            "params": {
+              "axis": {
+                "value": [
+                  0,
+                  0.1,
+                  0
+                ],
+                "type": 8
+              },
+              "amount": {
+                "value": 0.9,
+                "type": 1
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "shape",
+          "texture": null,
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0,
+          "shape": "plane",
+          "material": "9e2c6f56-6d5c-40b1-9d50-24619e528203"
+        }
+      }
+    ]
+  },
+  "id": "9e2c7e56-6b68-4efa-ab93-c1f352b73c7b"
+}

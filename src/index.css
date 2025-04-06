@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hology-overlay {
+  pointer-events: none
+}
+.hology-overlay * {
+ pointer-events: auto; 
+}
+
+.dialogue-overlay {
+  position: 'absolute';
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.dialogue-wrapper {
+  position: absolute;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 550px;
+  text-wrap: wrap;
+
+}
+
+.dialogue-body {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.6);
+}
+
+.dialogue-name {
+  padding-top: 4px;
+}
+
+.dialogue-content {
+  padding: 0px 20px 10px 20px;
+}
+
+.dialogue-content p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.dialogue-options button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  display: block;
+  text-align: center;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 20px;
+
+  margin-top:5px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
+  padding: 8px 20px 10px 20px;
+}
+
+.dialogue-options button p {
+  margin: 0;
+}
+
+.dialogue-options button:hover {
+  background-color: rgba(0,0,0,.4);
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Stump",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c1604-3cba-493a-aff8-aa9d21321933",
+  "fileKey": "Stump.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Stump.fbx"
+}

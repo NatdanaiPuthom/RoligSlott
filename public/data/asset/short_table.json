@@ -1,0 +1,22 @@
+{
+  "name": "short table",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e243929-5134-461d-b0b5-001a1b38d996",
+  "fileKey": "short table.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\short table.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    }
+  ],
+  "receiveShadow": true,
+  "castShadow": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Fortune_Teller",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9e53cf7f-82be-4193-9be6-1a9900564832",
+  "fileKey": "Fortune_Teller_1.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\adamr\\Documents\\AW Game jam assets\\Fortune_Teller_1.glb",
+  "mesh": {
+    "collisions": {}
+  }
+}

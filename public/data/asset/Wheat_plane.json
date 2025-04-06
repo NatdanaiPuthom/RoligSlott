@@ -1,0 +1,21 @@
+{
+  "name": "Wheat plane",
+  "type": "mesh",
+  "collisionDetection": false,
+  "mesh": {
+    "rescale": 0.02,
+    "collisions": {}
+  },
+  "id": "9e1e7a80-e508-4489-88a6-0f1709a3b476",
+  "fileKey": "Wheat plane.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Wheat plane.fbx",
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e1e7b62-85da-457b-8f18-1e977d5845b7",
+      "name": "standardSurface1"
+    }
+  ],
+  "castShadow": false
+}

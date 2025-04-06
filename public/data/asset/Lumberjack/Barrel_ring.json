@@ -1,0 +1,12 @@
+{
+  "name": "Barrel ring",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e3c15ff-c806-49a7-ab58-91880cab452e",
+  "fileKey": "Barrel ring.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Logs\\Barrel ring.fbx"
+}

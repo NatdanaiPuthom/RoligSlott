@@ -1,0 +1,12 @@
+{
+  "name": "Priest",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9e53ce83-67ae-486b-912e-0128b1990e19",
+  "fileKey": "Priest_1.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\adamr\\Documents\\AW Game jam assets\\Priest_1.glb",
+  "mesh": {
+    "collisions": {}
+  }
+}

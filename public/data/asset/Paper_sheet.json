@@ -1,0 +1,20 @@
+{
+  "name": "Paper sheet",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e3c4b98-4ed4-4557-83cf-b13ea56c831d",
+  "fileKey": "Paper sheet.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Paper sheet.fbx",
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e3a034c-6dce-4f40-a277-ff542916c113",
+      "name": "standardSurface1"
+    }
+  ]
+}

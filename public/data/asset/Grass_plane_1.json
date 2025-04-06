@@ -1,0 +1,21 @@
+{
+  "name": "Grass plane 1",
+  "type": "mesh",
+  "collisionDetection": false,
+  "mesh": {
+    "rescale": 0.02,
+    "collisions": {}
+  },
+  "id": "9e2c582f-1d36-405c-80a4-9e0cc88f73ca",
+  "fileKey": "Wheat plane.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Wheat plane.fbx",
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e16ce30-af88-4925-8062-a93dbc7268c1",
+      "name": "standardSurface1"
+    }
+  ],
+  "castShadow": false
+}

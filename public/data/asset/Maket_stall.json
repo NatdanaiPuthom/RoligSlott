@@ -1,0 +1,67 @@
+{
+  "name": "Maket stall",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e208131-523c-4567-a411-41a2e5eb18f5",
+  "fileKey": "Maket stall.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Maket stall.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aa7e62",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "Wood"
+    },
+    {
+      "color": "#aa5637",
+      "materialId": "9e209e8b-64e4-4792-91db-cd0217402086",
+      "name": "Pumpkin"
+    },
+    {
+      "color": "#79aa58",
+      "materialId": "9e243de1-ef06-4a93-a18a-381b72b0efaa",
+      "name": "Apple_stem"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e209dfe-e8f2-49e4-9520-288ef1f992da",
+      "name": "Leek_white"
+    },
+    {
+      "color": "#aa4d4d",
+      "materialId": "9e209e23-9166-4270-8557-27e2430d335c",
+      "name": "Apple"
+    },
+    {
+      "color": "#755340",
+      "materialId": "9e209f21-e270-4c79-8910-0856388e5c5d",
+      "name": "Potato"
+    },
+    {
+      "color": "#aa5656",
+      "materialId": "9e209e23-9166-4270-8557-27e2430d335c",
+      "name": "Red"
+    },
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e209dfe-e8f2-49e4-9520-288ef1f992da",
+      "name": "White"
+    },
+    {
+      "color": "#aa8e7f",
+      "materialId": "9e209e58-c340-4ad8-8b90-0e0e45613756",
+      "name": "Rope"
+    },
+    {
+      "color": "#70584a",
+      "materialId": "9e209f21-e270-4c79-8910-0856388e5c5d",
+      "name": "Pumpkin_stem"
+    }
+  ],
+  "receiveShadow": true,
+  "castShadow": true
+}

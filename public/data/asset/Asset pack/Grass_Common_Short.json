@@ -1,0 +1,12 @@
+{
+  "name": "Grass_Common_Short",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9e1624fa-0a9a-459b-bbf8-399c686a85cd",
+  "fileKey": "Grass_Common_Short.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Grass_Common_Short.fbx"
+}

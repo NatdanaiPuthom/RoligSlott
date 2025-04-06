@@ -1,0 +1,20 @@
+{
+  "name": "Bush",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 1,
+    "collisions": {}
+  },
+  "id": "9e2c8dac-63a6-4061-b78d-5ded8155dc3e",
+  "fileKey": "Bush.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Bush.fbx",
+  "materialAssignments": [
+    {
+      "color": "#aaaaaa",
+      "materialId": "9e138575-8adc-42f1-afb0-a453b2a07bc8",
+      "name": "lambert3"
+    }
+  ]
+}

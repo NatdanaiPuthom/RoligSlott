@@ -1,0 +1,345 @@
+{
+  "name": "Clouds",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "dj0w4h965",
+        "name": "Emitter",
+        "rate": {
+          "type": "continuous",
+          "count": 2,
+          "time": 17.4,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "qc1dqvd3g",
+            "type": "velocity",
+            "params": {
+              "velocity": {
+                "value": [
+                  0,
+                  0,
+                  19.9
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "3vkbeqsr3",
+            "type": "positionBox",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  200,
+                  0
+                ],
+                "type": 8
+              },
+              "dimensions": {
+                "value": [
+                  1011.8,
+                  90,
+                  428.6
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "wa3kx1ipu",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "value": 144.7,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "2gv302xdp",
+            "type": "randomScale",
+            "params": {
+              "min": {
+                "value": 0.4,
+                "type": 1
+              },
+              "max": {
+                "value": 1.55,
+                "type": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "f8xyzm3zf",
+            "type": "moveTo",
+            "params": {
+              "target": {
+                "value": [
+                  0,
+                  0,
+                  2009.7
+                ],
+                "type": 8
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": null,
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0,
+          "assetId": "9e2c6c32-03d4-4a8e-8156-fc94b665b2b0"
+        }
+      },
+      {
+        "id": "0vycmtqll",
+        "name": "Emitter (copy)",
+        "rate": {
+          "type": "continuous",
+          "count": 3,
+          "time": 17.4,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "qc1dqvd3g",
+            "type": "velocity",
+            "params": {
+              "velocity": {
+                "value": [
+                  0,
+                  0,
+                  19.9
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "3vkbeqsr3",
+            "type": "positionBox",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  200,
+                  0
+                ],
+                "type": 8
+              },
+              "dimensions": {
+                "value": [
+                  1011.8,
+                  79.9,
+                  355.4
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "wa3kx1ipu",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "value": 136.75,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "2gv302xdp",
+            "type": "randomScale",
+            "params": {
+              "min": {
+                "value": 0.4,
+                "type": 1
+              },
+              "max": {
+                "value": 1.45,
+                "type": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "f8xyzm3zf",
+            "type": "moveTo",
+            "params": {
+              "target": {
+                "value": [
+                  0,
+                  0,
+                  2009.7
+                ],
+                "type": 8
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": null,
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0,
+          "assetId": "9e2c6c32-d5e8-439c-87f3-b40627f369bc"
+        }
+      },
+      {
+        "id": "p76vz3hlw",
+        "name": "Emitter (copy 2)",
+        "rate": {
+          "type": "continuous",
+          "count": 2,
+          "time": 17.4,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "qc1dqvd3g",
+            "type": "velocity",
+            "params": {
+              "velocity": {
+                "value": [
+                  0,
+                  0,
+                  19.9
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "3vkbeqsr3",
+            "type": "positionBox",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  200,
+                  0
+                ],
+                "type": 8
+              },
+              "dimensions": {
+                "value": [
+                  1011.8,
+                  79.9,
+                  355.4
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "wa3kx1ipu",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "value": 127.9,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "2gv302xdp",
+            "type": "randomScale",
+            "params": {
+              "min": {
+                "value": 0.4,
+                "type": 1
+              },
+              "max": {
+                "value": 1.4,
+                "type": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "f8xyzm3zf",
+            "type": "moveTo",
+            "params": {
+              "target": {
+                "value": [
+                  0,
+                  0,
+                  2009.7
+                ],
+                "type": 8
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "mesh",
+          "texture": null,
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0,
+          "assetId": "9e2c6c33-25ca-434d-b0c0-6341a3596a31"
+        }
+      }
+    ]
+  },
+  "id": "9e2c6800-e802-4d9b-af3a-8a5d42bc6c8a"
+}

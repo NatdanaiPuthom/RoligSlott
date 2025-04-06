@@ -1,0 +1,36 @@
+{
+  "name": "Grass 2",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#55ab3f"
+      },
+      "colorBottom": {
+        "type": 10,
+        "value": "#225421"
+      },
+      "alphaMap": {
+        "type": 2,
+        "value": "9e1e68c7-eaf0-47be-b3ee-743b1ab3a1b5"
+      },
+      "swayAmount": {
+        "type": 1,
+        "value": "50"
+      },
+      "swaySpeed": {
+        "type": 1,
+        "value": 0.2
+      }
+    },
+    "shader": "GrassShader"
+  },
+  "id": "9e1e66e4-f5fc-4e14-bbae-55895ff94a3f"
+}

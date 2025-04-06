@@ -1,0 +1,57 @@
+{
+  "name": "Leaf falling 2",
+  "type": "material",
+  "material": {
+    "type": "unlit",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#864a19"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "map": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "specularMap": {
+        "type": 2
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "envMap": {
+        "type": 2
+      },
+      "combine": {
+        "type": 1
+      },
+      "reflectivity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      }
+    },
+    "alphaTest": 0
+  },
+  "id": "9e2c6f56-6d5c-40b1-9d50-24619e528203"
+}

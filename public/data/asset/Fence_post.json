@@ -1,0 +1,20 @@
+{
+  "name": "Fence post",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.07,
+    "collisions": {}
+  },
+  "id": "9e209560-75a8-40b4-9429-dee17e762dc5",
+  "fileKey": "Fence post.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Fence post.fbx",
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9e209d1c-6f54-4d8a-a197-70caa52152a5",
+      "name": "standardSurface1"
+    }
+  ]
+}

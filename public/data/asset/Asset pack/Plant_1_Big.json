@@ -1,0 +1,20 @@
+{
+  "name": "Plant_1_Big",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9e1624fb-c42a-4bd3-904e-3ce0c1aa1cf2",
+  "fileKey": "Plant_1_Big.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\malte\\OneDrive\\Hology\\Downloaded assets\\FBX\\Plant_1_Big.fbx",
+  "materialAssignments": [
+    {
+      "color": "#e7e7e7",
+      "materialId": "9e2c93b5-5140-4bb5-8098-0394d8e7f54e",
+      "name": "Leaves"
+    }
+  ]
+}
