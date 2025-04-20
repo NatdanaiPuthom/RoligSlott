@@ -1,0 +1,35 @@
+{
+  "name": "wheatmat",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#fff93d"
+      },
+      "colorBottom": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "swayAmount": {
+        "type": 1,
+        "value": 1
+      },
+      "swaySpeed": {
+        "type": 1,
+        "value": 0.2
+      }
+    },
+    "shader": "GrassShader"
+  },
+  "id": "9e243e1a-5e9a-46b8-9306-81925adff007"
+}

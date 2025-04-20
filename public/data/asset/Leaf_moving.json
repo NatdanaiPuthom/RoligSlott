@@ -11,31 +11,11 @@
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#2a7a5b"
+        "value": "#a7d3c0"
       },
-      "colorTop": {
-        "type": 10,
-        "value": "#569a32"
-      },
-      "hasGradient": {
-        "type": 4,
-        "value": true
-      },
-      "gradientStart": {
-        "type": 1,
-        "value": 620.15
-      },
-      "gradientEnd": {
-        "type": 1,
-        "value": "900"
-      },
-      "alphaMap": {
+      "normalMap": {
         "type": 2,
-        "value": "9e0c75cc-24da-49a9-92e2-fbb6179f6478"
-      },
-      "windStrength": {
-        "type": 1,
-        "value": "15"
+        "value": "9eae4bab-7fa0-4e1a-837a-faddcb7f7932"
       }
     },
     "shader": "LeavesShader",

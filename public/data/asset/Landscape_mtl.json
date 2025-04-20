@@ -2,54 +2,31 @@
   "name": "Landscape mtl",
   "type": "material",
   "material": {
-    "type": "landscape-composite",
+    "type": "shader",
     "params": {
       "metalness": 0,
       "opacity": 1
     },
     "side": 0,
     "shaderParams": {
-      "layers": {
-        "type": 21,
-        "element": 16,
-        "value": [
-          "9e106e21-4f2c-4f81-88d9-97545bb868e5",
-          "9e1458c2-1b30-4dfc-96f8-355497b5e397",
-          "9e1458c2-1b30-4dfc-96f8-355497b5e397"
-        ]
+      "color": {
+        "type": 10,
+        "value": "#76a27e"
       },
-      "uvScale": {
+      "shallowColor": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "9eae5127-a54e-4018-a2a1-8c075419b1ec"
+      },
+      "alpha": {
         "type": 1,
-        "value": 31.8
-      },
-      "transition": {
-        "type": 1,
-        "value": 1
-      },
-      "noiseScale": {
-        "type": 1,
-        "value": 1
-      },
-      "noiseAmount": {
-        "type": 1,
-        "value": 0.2
-      },
-      "softness": {
-        "type": 1,
-        "value": 0.3
-      },
-      "enableSlope": {
-        "type": 4,
-        "value": false
-      },
-      "slopeMaterial": {
-        "type": 16
-      },
-      "slopeAngle": {
-        "type": 1,
-        "value": 35
+        "value": 0.5
       }
-    }
+    },
+    "shader": "LandscapeShader"
   },
   "id": "9e105938-de2c-4c77-89e2-2749327f3d7f"
 }

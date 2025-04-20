@@ -11,19 +11,25 @@
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#3f5b78"
+        "value": "#336280"
       },
       "shallowColor": {
         "type": 10,
-        "value": "#58e4cd"
+        "value": "#92a6aa"
       },
       "normalMap": {
         "type": 2,
-        "value": "9e205cbe-cbe6-449b-9ce0-a749ef7efc15"
+        "value": "9eae185f-ba12-4614-8cb9-829f3c653903"
+      },
+      "alpha": {
+        "type": 1,
+        "value": "0.2"
       }
     },
     "shader": "WaterShader",
-    "transparent": true
+    "transparent": true,
+    "alphaTest": 0.5,
+    "bloom": false
   },
   "id": "9e205c1a-75fa-4ddd-8175-488b24ff750c"
 }

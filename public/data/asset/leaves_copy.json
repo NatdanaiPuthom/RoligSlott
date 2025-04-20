@@ -1,0 +1,24 @@
+{
+  "name": "leaves (copy)",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#e6641e"
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "9eae4bab-7fa0-4e1a-837a-faddcb7f7932"
+      }
+    },
+    "shader": "LeavesShader"
+  },
+  "id": "9eae48d6-8e96-46ea-9d52-d8ff6c16da6c"
+}
