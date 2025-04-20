@@ -97,7 +97,9 @@ class Character extends BaseActor {
             {
                 this.score.update(1);
                 this.world.removeActor(pickUp);
-            })     
+            })    
+
+        this.dialogueService.story?.setVariable('pickup', this.score.currentPoints as number);
     }
 
     private handleDialogues() {
