@@ -1,10 +1,10 @@
 
-import { Actor, AnimationState, AnimationStateMachine, AssetLoader, BaseActor, RootMotionClip, attach, inject, PhysicsSystem, World, Parameter, ActorComponent } from "@hology/core/gameplay";
+import { Actor, AnimationState, AnimationStateMachine, AssetLoader, BaseActor, RootMotionClip, attach, inject, PhysicsSystem, World, Parameter, ActorComponent, ViewController } from "@hology/core/gameplay";
 import { CharacterAnimationComponent, CharacterMovementComponent, CharacterMovementMode, ThirdPersonCameraComponent } from "@hology/core/gameplay/actors";
 import { firstValueFrom } from 'rxjs';
 import { FrontSide, Material, Mesh, Object3D } from "three";
 import { DialogueService, StoryCharacter } from "../services/dialogue-service";
-
+import * as THREE from 'three';
 import PickUp from "./pick-up";
 
 class ScoreComponent extends ActorComponent
@@ -24,7 +24,8 @@ class Character extends BaseActor {
     private animation = attach(CharacterAnimationComponent)
     private physicsSystem = inject(PhysicsSystem)
     private world = inject(World)
-
+    private view = inject(ViewController)
+    private sound = new THREE.Audio(this.view.audioListener);
     score = attach(ScoreComponent)
 
     public readonly movement = attach(CharacterMovementComponent, {
@@ -92,11 +93,14 @@ class Character extends BaseActor {
         this.animation.playStateMachine(sm)
         this.handleDialogues()
 
+        const bufferHeal = await this.assetLoader.getAudioAtPath('coin-6.wav');
+
         this.physicsSystem.onBeginOverlapWithActorType(this, PickUp)
             .subscribe(pickUp =>
             {
                 this.score.update(1);
                 this.world.removeActor(pickUp);
+                this.sound.setBuffer(bufferHeal).setVolume(0.5)
             })    
 
         this.dialogueService.story?.setVariable('pickup', this.score.currentPoints as number);
