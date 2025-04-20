@@ -3,10 +3,9 @@
   "type": "mesh",
   "collisionDetection": true,
   "mesh": {
-    "rescale": 0.01,
-    "collisions": {}
+    "rescale": 0.01
   },
-  "id": "9eb8ea17-11c2-4a05-af6f-4057fbeede86",
+  "id": "9eb8f709-8f36-440b-b8e5-d57b423f62c2",
   "fileKey": "Lumber.fbx",
   "fileFormat": "fbx",
   "sourceFile": "C:\\Users\\panda\\Downloads\\Lumber.fbx"
