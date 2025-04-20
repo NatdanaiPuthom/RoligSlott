@@ -91,19 +91,18 @@ class Character extends BaseActor {
         this.animation.playStateMachine(sm)
         this.handleDialogues()
 
-        const bufferHeal = await this.assetLoader.getAudioAtPath('coin-6.wav');
-
-        if (this.sound.isPlaying) {
-            this.sound.stop()
-        }
-
-        this.sound.play()
+        const bufferHeal = await this.assetLoader.getAudioAtPath('item-pick-up-38258.mp3');
 
         this.physicsSystem.onBeginOverlapWithActorType(this, PickUp)
             .subscribe(pickUp => {
                 this.score.update(1);
                 this.world.removeActor(pickUp);
+
+                if (this.sound.isPlaying) {
+                    this.sound.stop()
+                }
                 this.sound.setBuffer(bufferHeal).setVolume(0.5)
+                this.sound.play()
             })
 
         this.dialogueService.story?.setVariable('pickup', this.score.currentPoints as number);

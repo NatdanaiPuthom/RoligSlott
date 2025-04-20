@@ -34,24 +34,16 @@ class Game extends GameInstance {
   }
 
   private async startMusic(sound: Audio) {
-    const storySettings = this.dialogueService.getSettings()
-    if (storySettings?.musicTracks != null && storySettings?.musicTracks.length > 0) {
-
-      const audioRef = storySettings.musicTracks[0]
-      if (audioRef.url == null) {
-        console.warn(`Can not play music because audio url is missing. This is likely due to not fetching story data via the API with the correct header`)
-        return
-      }
+  
       if (sound.isPlaying) {
-        sound.stop()
+          sound.stop()
       }
       const audioLoader = new AudioLoader();
-      const buffer = await audioLoader.loadAsync(audioRef.url)
+      const buffer = await audioLoader.loadAsync('Pleasant Creek Loop.wav')
       sound.setBuffer(buffer)
       sound.setLoop(true)
       sound.setVolume(0.2)
       sound.play()
-    }
   }
 
   onShutdown(): void | Promise<void> {
