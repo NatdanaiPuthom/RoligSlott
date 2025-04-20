@@ -41,7 +41,7 @@ export default class RockShader extends NodeShader {
   
 
    
-    const worldCoord = varying(transformed.worldPosition.xy)
+    const worldCoord = varying(transformed.worldPosition.yz)
        const normalMap = textureSampler2d(this.normalMap)
        const normalSample = normalMap.sample(worldCoord.multiplyScalar(.09))
    
