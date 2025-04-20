@@ -3,7 +3,8 @@
   "type": "mesh",
   "collisionDetection": true,
   "mesh": {
-    "rescale": 0.01
+    "rescale": 0.01,
+    "collisions": {}
   },
   "id": "9eb8ea17-11c2-4a05-af6f-4057fbeede86",
   "fileKey": "Lumber.fbx",
