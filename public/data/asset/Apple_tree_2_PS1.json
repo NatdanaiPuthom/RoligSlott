@@ -1,0 +1,12 @@
+{
+  "name": "Apple_tree_2_PS1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb8c64c-509a-4eef-940d-df3100c558dc",
+  "fileKey": "Apple_tree_2_PS1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Downloads\\Apple_tree_2_PS1.fbx"
+}

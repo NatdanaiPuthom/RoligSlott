@@ -1,0 +1,9 @@
+{
+  "name": "kvarn-tex",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9eb8c640-155a-48ca-86bb-32278923e571",
+  "fileKey": "kvarn-tex.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\panda\\Downloads\\kvarn-tex.glb"
+}
