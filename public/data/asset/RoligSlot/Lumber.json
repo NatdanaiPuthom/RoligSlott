@@ -2,11 +2,11 @@
   "name": "Lumber",
   "type": "mesh",
   "collisionDetection": true,
+  "id": "9eb8fe1d-7846-47ef-856e-89a7aa660cc5",
+  "fileKey": "inte-mario.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\panda\\Downloads\\inte-mario.glb",
   "mesh": {
-    "rescale": 0.01
-  },
-  "id": "9eb8f709-8f36-440b-b8e5-d57b423f62c2",
-  "fileKey": "Lumber.fbx",
-  "fileFormat": "fbx",
-  "sourceFile": "C:\\Users\\panda\\Downloads\\Lumber.fbx"
+    "collisions": {}
+  }
 }
