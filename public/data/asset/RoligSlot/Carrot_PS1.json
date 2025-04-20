@@ -1,0 +1,12 @@
+{
+  "name": "Carrot_PS1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb8bce7-9fa0-4842-88e6-2027497edfc2",
+  "fileKey": "Carrot_PS1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Downloads\\Carrot_PS1.fbx"
+}

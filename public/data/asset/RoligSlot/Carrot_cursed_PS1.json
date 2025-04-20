@@ -1,0 +1,12 @@
+{
+  "name": "Carrot_cursed_PS1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb8bbea-be7a-4db3-8656-e821ecf08463",
+  "fileKey": "Carrot_cursed_PS1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Downloads\\Carrot_cursed_PS1.fbx"
+}

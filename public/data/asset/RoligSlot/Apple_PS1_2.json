@@ -1,0 +1,12 @@
+{
+  "name": "Apple_PS1_2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb8bcfe-f600-4483-afaf-e909d7be284e",
+  "fileKey": "Apple_PS1_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Downloads\\Apple_PS1_2.fbx"
+}
