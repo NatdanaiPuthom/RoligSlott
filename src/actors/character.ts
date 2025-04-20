@@ -7,13 +7,11 @@ import { DialogueService, StoryCharacter } from "../services/dialogue-service";
 import * as THREE from 'three';
 import PickUp from "./pick-up";
 
-class ScoreComponent extends ActorComponent
-{
+class ScoreComponent extends ActorComponent {
     @Parameter()
     currentPoints = 0
 
-    update(change: number)
-    {
+    update(change: number) {
         this.currentPoints += change;
     }
 }
@@ -95,13 +93,18 @@ class Character extends BaseActor {
 
         const bufferHeal = await this.assetLoader.getAudioAtPath('coin-6.wav');
 
+        if (this.sound.isPlaying) {
+            this.sound.stop()
+        }
+
+        this.sound.play()
+
         this.physicsSystem.onBeginOverlapWithActorType(this, PickUp)
-            .subscribe(pickUp =>
-            {
+            .subscribe(pickUp => {
                 this.score.update(1);
                 this.world.removeActor(pickUp);
                 this.sound.setBuffer(bufferHeal).setVolume(0.5)
-            })    
+            })
 
         this.dialogueService.story?.setVariable('pickup', this.score.currentPoints as number);
     }
