@@ -1,0 +1,12 @@
+{
+  "name": "Apple_PS1_2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb8b8cb-5c4a-4324-bb89-cafcdb1325c4",
+  "fileKey": "Apple_PS1_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Desktop\\HologyGamejam2025\\RoligSlott\\src\\assets\\Apple_PS1_2.fbx"
+}
