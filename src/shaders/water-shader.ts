@@ -50,8 +50,8 @@ export default class WaterShader extends NodeShader {
 
     const worldCoord = varying(transformed.worldPosition.xz)
     const normalMap = textureSampler2d(this.normalMap)
-    const normalSample1 = sampleWaveNormal(normalMap, worldCoord, .0008, vec2(-.4, .9), 9) 
-    const normalSample2 = sampleWaveNormal(normalMap, worldCoord, .002, vec2(.5, .2), 4)
+    const normalSample1 = sampleWaveNormal(normalMap, worldCoord, .01, vec2(-.4, .9), 2) 
+    const normalSample2 = sampleWaveNormal(normalMap, worldCoord, .05, vec2(.5, .2), .4)
 
     const normal = colorToNormal(mix(normalSample1,normalSample2,.5) , 7)
     return {
