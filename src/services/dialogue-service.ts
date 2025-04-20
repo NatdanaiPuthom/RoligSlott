@@ -227,7 +227,7 @@ export type StoryCharacter = {
 
 const url = 'https://arcweave.com/api/';
 const apiKey: string|undefined = import.meta.env?.VITE_AW_API_KEY
-const defaultProjectHash = 'Qz0P7Bd6Ya'
+const defaultProjectHash = 'DaEWKXeE1P'
 
 export function getProjectHash() {
   const search = window.location.search;
