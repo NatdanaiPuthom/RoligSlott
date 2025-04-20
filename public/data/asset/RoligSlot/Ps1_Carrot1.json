@@ -1,0 +1,12 @@
+{
+  "name": "Ps1_Carrot1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb89dff-9534-4775-a0ca-a661347802fa",
+  "fileKey": "Ps1_Carrot1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Desktop\\HologyGamejam2025\\RoligSlott\\src\\assets\\Ps1_Carrot1.fbx"
+}

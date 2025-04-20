@@ -1,0 +1,12 @@
+{
+  "name": "Apple_cursed_PS1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb89bb4-5c4c-4902-ad08-2858aec5031c",
+  "fileKey": "Apple_cursed_PS1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Desktop\\HologyGamejam2025\\RoligSlott\\src\\assets\\Apple_cursed_PS1.fbx"
+}
