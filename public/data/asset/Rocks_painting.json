@@ -2,24 +2,55 @@
   "name": "Rocks painting",
   "type": "material",
   "material": {
-    "type": "shader",
+    "type": "landscape-composite",
     "params": {
       "metalness": 0,
       "opacity": 1
     },
     "side": 0,
     "shaderParams": {
-      "color": {
-        "type": 10,
-        "value": "#d7c6c6"
+      "layers": {
+        "type": 21,
+        "element": 16,
+        "value": [
+          "9e1628c2-58d0-4183-871d-c6b90bd6f43d",
+          "9e106e21-4f2c-4f81-88d9-97545bb868e5",
+          "9e105056-3c78-4d15-8448-a928ff8cf7af",
+          "9e1686e4-0cb0-4241-896a-452dc67c2086"
+        ]
       },
-      "normalMap": {
-        "type": 2,
-        "value": "9eb0b633-99d2-4d27-876b-a9ca13766a12"
+      "uvScale": {
+        "type": 1,
+        "value": "1"
+      },
+      "transition": {
+        "type": 1,
+        "value": 1
+      },
+      "noiseScale": {
+        "type": 1,
+        "value": 1
+      },
+      "noiseAmount": {
+        "type": 1,
+        "value": 0.2
+      },
+      "softness": {
+        "type": 1,
+        "value": 0.3
+      },
+      "enableSlope": {
+        "type": 4,
+        "value": false
+      },
+      "slopeMaterial": {
+        "type": 16
+      },
+      "slopeAngle": {
+        "type": 1,
+        "value": 35
       }
-    },
-    "shader": "BoulderShader",
-    "alphaTest": 0.05
+    }
   },
   "id": "9e168674-2670-4a65-a54d-355471c10cb5"
 }

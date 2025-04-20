@@ -2,7 +2,7 @@
   "name": "Roof mat",
   "type": "material",
   "material": {
-    "type": "shader",
+    "type": "standard",
     "params": {
       "metalness": 0,
       "opacity": 1
@@ -13,20 +13,87 @@
         "type": 10,
         "value": "#4D5775"
       },
-      "shallowColor": {
+      "map": {
+        "type": 2
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "roughness": {
+        "type": 1,
+        "value": 1
+      },
+      "roughnessMap": {
+        "type": 2
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
         "type": 10,
-        "value": "#ffffff"
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
       },
       "normalMap": {
-        "type": 2,
-        "value": "9eb0c1e0-9424-4596-893f-9c0ec6bdde75"
+        "type": 2
       },
-      "alpha": {
-        "type": 1,
-        "value": 0.5
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0,
+          0
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
       }
-    },
-    "shader": "RoofShader"
+    }
   },
   "id": "9e2ca9f2-d1b2-43ee-8cf0-17a55a020d4b"
 }
