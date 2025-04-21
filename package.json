@@ -13,7 +13,7 @@
     "@babel/runtime": "^7.26.7",
     "@dimforge/rapier3d-compat": "^0.14.0",
     "@hology/arcweave": "^0.0.9",
-    "@hology/core": "^0.0.92",
+    "@hology/core": "^0.0.93",
     "@hology/react": "^0.0.16",
     "@preact/signals-react": "^3.0.1",
     "@types/three": "^0.169.0",
