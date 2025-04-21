@@ -96,11 +96,14 @@ class Character extends BaseActor {
         this.physicsSystem.onBeginOverlapWithActorType(this, PickUp)
             .subscribe(pickUp => {
                 this.score.update(1);
+
+                pickUp.OnRemove();
                 this.world.removeActor(pickUp);
 
                 if (this.sound.isPlaying) {
                     this.sound.stop()
                 }
+
                 this.sound.setBuffer(bufferHeal).setVolume(0.5)
                 this.sound.play()
             })
