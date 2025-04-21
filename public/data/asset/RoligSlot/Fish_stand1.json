@@ -1,0 +1,12 @@
+{
+  "name": "Fish_stand1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb9d252-a546-43a8-b1e2-0b12d8e6cf30",
+  "fileKey": "Fish_stand1.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Desktop\\HologyGamejam2025\\RoligSlott\\src\\actors\\Fish_stand1.fbx"
+}

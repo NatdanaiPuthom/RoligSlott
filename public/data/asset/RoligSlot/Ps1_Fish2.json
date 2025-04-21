@@ -1,0 +1,12 @@
+{
+  "name": "Ps1_Fish2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9eb9d29a-2682-4fde-aa5d-3ea807593182",
+  "fileKey": "Ps1_Fish2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\panda\\Desktop\\HologyGamejam2025\\RoligSlott\\src\\actors\\Ps1_Fish2.fbx"
+}
