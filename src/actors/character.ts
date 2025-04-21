@@ -96,6 +96,7 @@ class Character extends BaseActor {
         this.physicsSystem.onBeginOverlapWithActorType(this, PickUp)
             .subscribe(pickUp => {
                 this.score.update(1);
+                this.dialogueService.story?.setVariable('pickup', this.score.currentPoints as number);
 
                 pickUp.OnRemove();
                 this.world.removeActor(pickUp);
@@ -107,8 +108,6 @@ class Character extends BaseActor {
                 this.sound.setBuffer(bufferHeal).setVolume(0.5)
                 this.sound.play()
             })
-
-        this.dialogueService.story?.setVariable('pickup', this.score.currentPoints as number);
     }
 
     private handleDialogues() {
