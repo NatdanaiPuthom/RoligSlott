@@ -29,7 +29,7 @@
 
 .dialogue-wrapper {
   position: absolute;
-  top: 100px;
+  bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
