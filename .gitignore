@@ -1,3 +1,8 @@
+## Natdanai Modifications
+*.vs
+##
+
+
 # Logs
 logs
 *.log
